@@ -1,0 +1,25 @@
+.loginClass {
+  height: 50%;
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-around;
+  padding: 10px;
+}
+.loginContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .loginClass {
+    width: 90%;
+    height: 50%;
+  }
+}
